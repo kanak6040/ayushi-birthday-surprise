@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fff2f7">
-  <title>Little things about you ✿</title>
+  <meta name="theme-color" content="#fff2f7"><title>Little things about you ✿</title>
   <link rel="stylesheet" href="style.css"><script defer src="script.js"></script>
 </head>
 <body>
@@ -18,7 +17,17 @@
       <article class="memory-card tilt-c"><div class="card-icon">🍰</div><h2>More reasons to smile</h2><p>May the year ahead bring good food, good people, silly laughs, and days that feel easy.</p><span class="card-doodle">✧</span></article>
       <article class="memory-card tilt-d"><div class="card-icon">✨</div><h2>Room to be yourself</h2><p>Here's to new experiences, little wins, and being proud of the person you're becoming.</p><span class="card-doodle">✿</span></article>
     </section>
-    <aside class="photo-note"><span class="photo-note-icon">📸</span><div><strong>Want to make this more personal?</strong><p>Add your own photos in the <code>photos</code> folder and follow the quick guide in README.md. This first version works beautifully without them, too.</p></div></aside>
+    <section class="photo-gallery-section">
+      <div class="section-kicker">📸 your little photo corner</div>
+      <h2 class="gallery-title">A few snapshots of <em>you.</em></h2>
+      <p class="page-intro">Put your favourite photos in the <code>photos</code> folder and name them <code>ayushi-1.jpg</code>, <code>ayushi-2.jpg</code>, and <code>ayushi-3.jpg</code>. The frames below are ready for them.</p>
+      <div class="photo-gallery">
+        <figure class="photo-frame"><img src="photos/ayushi-1.jpg" alt="A favourite photo of Ayushi" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>🌷</span><strong>Favourite moment #1</strong><small>Add photos/ayushi-1.jpg</small></div><figcaption>the smile that brightens the day</figcaption></figure>
+        <figure class="photo-frame photo-frame-offset"><img src="photos/ayushi-2.jpg" alt="Another lovely photo of Ayushi" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>♡</span><strong>Favourite moment #2</strong><small>Add photos/ayushi-2.jpg</small></div><figcaption>a little memory to keep</figcaption></figure>
+        <figure class="photo-frame"><img src="photos/ayushi-3.jpg" alt="A third favourite photo of Ayushi" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>✦</span><strong>Favourite moment #3</strong><small>Add photos/ayushi-3.jpg</small></div><figcaption>another little reason to smile</figcaption></figure>
+      </div>
+    </section>
+    <aside class="photo-note"><span class="photo-note-icon">💗</span><div><strong>A personal touch</strong><p>Use photos you have permission to share. The published page is public to anyone with the link.</p></div></aside>
     <div class="page-actions"><a class="button ghost" href="letter.html">← Read the note again</a><a class="button primary" href="cake.html">One last surprise →</a></div>
   </main>
   <footer class="site-footer">the best memories are still ahead <span>♡</span></footer>
