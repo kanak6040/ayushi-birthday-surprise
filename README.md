@@ -46,3 +46,14 @@ Your address will look like `https://YOUR-GITHUB-USERNAME.github.io/ayushi-birth
 - The site is static, so it does not collect form submissions or personal information.
 - Anyone with the published URL can view the website. Avoid private messages or photos you would not want public.
 - Google Fonts is an optional online font source; if it is unavailable, the site falls back to standard fonts.
+
+## Photo files and deployment
+
+The gallery in `memories.html` is already wired to these filenames:
+- `photos/ayushi-1.jpg`
+- `photos/ayushi-2.jpg`
+- `photos/ayushi-3.jpg`
+
+Add photos that you have permission to share with those exact names. Until those files are added, the gallery shows pretty placeholder cards.
+
+A GitHub Actions workflow at `.github/workflows/pages.yml` publishes the static site on every push to `main`. On the repository's **Settings → Pages** screen, ensure the Pages source/build setup allows GitHub Actions, and check **Actions** for the deployment result. If the project has never had Pages enabled, the first deployment may require choosing **GitHub Actions** as the build and deployment source in Settings → Pages.
